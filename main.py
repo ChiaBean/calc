@@ -27,7 +27,7 @@ Please type in the math operation you would like to complete:
         print(number_1 / number_2)
 
     else:
-        print('You have not typed a valid operator, please run the program again.')
+        print('Cannot do that, sorry')
 
     again()
 
@@ -40,7 +40,7 @@ Please type Y for YES or N for NO.
     if calc_again.upper() == 'Y':
         calculate()
     elif calc_again.upper() == 'N':
-        print('See you later.')
+        print('Have a good one! Bye!')
     else:
         again()
 
